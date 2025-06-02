@@ -98,7 +98,7 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
 
 **🔐Auth Routes**
 **✅ POST /register**
-User Registration:
+**User Registration:**
 
 ![User Register](./screenshots/register/user_register.png)
 
