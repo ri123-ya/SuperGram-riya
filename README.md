@@ -95,16 +95,17 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
 ```
 
 📬 ## API Endpoints (With Postman Screenshots)
-🔐 ###Auth Routes
-✅ ###POST /register
+
+🔐 **Auth Routes**
+✅ POST /register
 User Registration:
-```bash
+
 ![User Register](./screenshots/register/user_register.png)
-```
+
 Admin Registration:
-```bash
+
 ![Admin Register](./screenshots/register/admin_register.png)
-```
+
 
 🔓 POST /login
 User Login:
