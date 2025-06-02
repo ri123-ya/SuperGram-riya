@@ -4,21 +4,21 @@ This is simple User Profile Management System with  backend framework built with
 
 1. **Node.js** — JavaScript runtime environment
 
-2.Express.js — Web framework for Node.js
+2. **Express.js** — Web framework for Node.js
 
-3.cors — Middleware for enabling Cross-Origin Resource Sharing
+3. **Cors** — Middleware for enabling Cross-Origin Resource Sharing
 
-4.cookie-parser — Middleware to parse cookies
+4. **Cookie-parser** — Middleware to parse cookies
 
-5.dotenv — Loads environment variables from .env files
+5. **dotenv** — Loads environment variables from .env files
 
-6.nodemon — Tool for automatically restarting the server during development
+6. **nodemon** — Tool for automatically restarting the server during development
 
-7.mongoose — MongoDB object modeling for Node.js
+7. **mongoose** — MongoDB object modeling for Node.js
 
-8.jsonwebtoken — JSON Web Token implementation for authentication
+8. **jsonwebtoken** — JSON Web Token implementation for authentication
 
-9.bcrypt — Library to hash passwords securely
+9. **bcrypt** — Library to hash passwords securely
 
 ## SetUp:-
 
