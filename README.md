@@ -1,6 +1,16 @@
 ## 🧾User Profile Management System
 This is simple User Profile Management System with  backend framework built with Node.js and Express.js. It is designed to facilitate the development of RESTful APIs and microservices by providing a structured architecture and reusable components.
 
+## ✨ Features
+
+- Register/Login for User and Admin with role-based access
+- Secure password hashing using bcrypt
+- JWT-based authentication
+- Protected routes for users and admins
+- MongoDB integration using Mongoose
+- Cookie-based token storage
+- RESTful API structure
+
 ## 🚀TechStack:-
 
 1. **Node.js** — JavaScript runtime environment
