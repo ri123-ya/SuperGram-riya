@@ -1,7 +1,7 @@
-🧾 ## User Profile Management System
+## 🧾User Profile Management System
 This is simple User Profile Management System with  backend framework built with Node.js and Express.js. It is designed to facilitate the development of RESTful APIs and microservices by providing a structured architecture and reusable components.
 
-🚀 ## TechStack:-
+## 🚀TechStack:-
 
 1. **Node.js** — JavaScript runtime environment
 
@@ -21,7 +21,7 @@ This is simple User Profile Management System with  backend framework built with
 
 9. **bcrypt** — Library to hash passwords securely
 
-🛠️ ## SetUp:-
+## 🛠️SetUp:-
 
 Follow these steps to set up the SuperGram-riya backend on your local machine:
 
@@ -72,7 +72,7 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
    http://localhost:3000/
    ```
 
-📂 ## File Structure
+## 📂File Structure
 ```bash
   API/
 ├── controllers/            # Controller logic for handling requests
@@ -94,9 +94,9 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
 └── README.md               # Project documentation
 ```
 
-📬 ## API Endpoints (With Postman Screenshots)
+## 📬API Endpoints (With Postman Screenshots)
 
-🔐 **Auth Routes**
+**🔐Auth Routes**
 ✅ POST /register
 User Registration:
 
