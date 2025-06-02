@@ -94,57 +94,92 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
 └── README.md               # Project documentation
 ```
 
-## 📬API Endpoints (With Postman Screenshots)
+## 📬 API Endpoints (With Postman Screenshots)
 
-**🔐Auth Routes**
-**✅ POST /register**
-**User Registration:**
+---
 
+### 🔐 Auth Routes
+
+#### ✅ POST `/register` – User Registration
+
+**User Register:**  
+`![User Register](./screenshots/register/user_register.png)`  
 ![User Register](./screenshots/register/user_register.png)
 
-Admin Registration:
-
+**Admin Register:**  
+`![Admin Register](./screenshots/register/admin_register.png)`  
 ![Admin Register](./screenshots/register/admin_register.png)
 
+---
 
-**🔓 POST /login**
-User Login:
+#### 🔓 POST `/login` – User Login
+
+**User Login:**  
+`![User Login](./screenshots/login/user_login.png)`  
 ![User Login](./screenshots/login/user_login.png)
 
-Admin Login:
+**Admin Login:**  
+`![Admin Login](./screenshots/login/admin_login.png)`  
 ![Admin Login](./screenshots/login/admin_login.png)
 
-**🔒 POST /logout**
-User Logout:
+---
+
+#### 🔒 POST `/logout` – User Logout
+
+**User Logout:**  
+`![User Logout](./screenshots/logout/user_logout.png)`  
 ![User Logout](./screenshots/logout/user_logout.png)
 
-Admin Logout:
+**Admin Logout:**  
+`![Admin Logout](./screenshots/logout/admin_logout.png)`  
 ![Admin Logout](./screenshots/logout/admin_logout.png)
 
-**👤 Profile Routes**
-**📄 GET /profile**
-User Profile:
+---
+
+### 👤 Profile Routes
+
+#### 📄 GET `/profile` – View Profile
+
+**User Profile:**  
+`![User Profile](./screenshots/profile/user_profile.png)`  
 ![User Profile](./screenshots/profile/user_profile.png)
 
-Admin Profile:
+**Admin Profile:**  
+`![Admin Profile](./screenshots/profile/admin_profile.png)`  
 ![Admin Profile](./screenshots/profile/admin_profile.png)
 
-**📝 Profile Update**
-**✏️ PUT /update**
-User Profile Update:
+---
+
+### 📝 Profile Update
+
+#### ✏️ PUT `/update` – Update Profile
+
+**User Profile Update:**  
+`![User Update](./screenshots/updateprofile/user_update.png)`  
 ![User Update](./screenshots/updateprofile/user_update.png)
 
-Admin Updating Own Profile:
+**Admin Updating Own Profile:**  
+`![Admin Update](./screenshots/updateprofile/admin_update.png)`  
 ![Admin Update](./screenshots/updateprofile/admin_update.png)
 
-Admin Updating Another User:
+**Admin Updating Another User:**  
+`![Admin Update Another User](./screenshots/updateprofile/admin_update_user.png)`  
 ![Admin Update Another User](./screenshots/updateprofile/admin_update_user.png)
 
-**📋 Admin: View All Users**
-**📑 GET /users**
-Admin View All Users:
+---
+
+### 📋 Admin: View All Users
+
+#### 📑 GET `/users` – Admin View Users
+
+**Admin View All Users:**  
+`![View Users - Admin](./screenshots/view_users-admin/users_admin.png)`  
 ![View Users - Admin](./screenshots/view_users-admin/users_admin.png)
 
-**🍪 Cookies (Token / Session)**
-Admin Auth Cookies:
+---
+
+### 🍪 Cookies (Token / Session)
+
+**Admin Auth Cookies:**  
+`![Admin Cookies](./screenshots/cookies/user_admin_cookies.png)`  
 ![Admin Cookies](./screenshots/cookies/user_admin_cookies.png)
