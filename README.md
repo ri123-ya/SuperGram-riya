@@ -2,7 +2,7 @@ This is simple User Profile Management System with  backend framework built with
 
 ## TechStack:-
 
-1. Node.js — JavaScript runtime environment
+1. **Node.js** — JavaScript runtime environment
 
 2.Express.js — Web framework for Node.js
 
@@ -20,7 +20,7 @@ This is simple User Profile Management System with  backend framework built with
 
 9.bcrypt — Library to hash passwords securely
 
-SetUp:-
+## SetUp:-
 
 Follow these steps to set up the SuperGram-riya backend on your local machine:
 
