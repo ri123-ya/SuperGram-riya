@@ -180,6 +180,6 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
 
 ### 🍪 Cookies (Token / Session)
 
-**Admin Auth Cookies:**  
+**Admin-User Auth Cookies:**  
 `![Admin Cookies](./screenshots/cookies/user_admin_cookies.png)`  
-![Admin Cookies](./screenshots/cookies/user_admin_cookies.png)
+![Admin-User Cookies](./screenshots/cookies/user_admin_cookies.png)
