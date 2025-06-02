@@ -25,33 +25,49 @@ This is simple User Profile Management System with  backend framework built with
 Follow these steps to set up the SuperGram-riya backend on your local machine:
 
 1. Clone the repository
-     `git clone https://github.com/ri123-ya/SuperGram-riya.git`
-2. Navigate to the project directory
-     `cd api`
-3. Install dependencies
+   ```bash
+     git clone https://github.com/ri123-ya/SuperGram-riya.git
+   ```
+3. Navigate to the project directory
+   ```bash
+     cd api
+   ```
+5. Install dependencies
      Make sure you have Node.js installed. Then run:
-     `npm install`
+   ```bash
+     npm install
+   ```
      to install all the Packages
      
 
-5. Configure environment variables
+7. Configure environment variables
      Create a .env file in the root folder (same level as index.js) and add necessary variables. For example:
-     `PORT=3000
+    ```bash
+     PORT=3000
       MONGODB_URI=your_mongodb_connection_string
-      JWT_SECRET=your_secret_key_for_tokens`
+      JWT_SECRET=your_secret_key_for_tokens
+    ```
       Replace your_mongodb_connection_string with your actual MongoDB connection URI. If you don’t have MongoDB locally, you can use a service like MongoDB Atlas.
 
-6. Start the server
+8. Start the server
     To run the server in development mode (with automatic restarts on file changes):
-     `npm install nodemon`
+   ```bash
+     npm install nodemon
+   ```
      in package.json add
-     `"scripts": {
+   ```bash
+     "scripts": {
         "dev": "nodemon index.js"
-     }`
+     }
+   ```
     Then run-
-    `npm run dev`
+   ```bash
+    npm run dev
+   ```
 
-7. Test the API
+9. Test the API
    Once the server is running, you can test the API endpoints  using Postman  by sending requests as
-   `http://localhost:3000/`
+   ```bash
+   http://localhost:3000/
+   ```
 
