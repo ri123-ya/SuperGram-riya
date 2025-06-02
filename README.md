@@ -1,6 +1,7 @@
+🧾 ## User Profile Management System
 This is simple User Profile Management System with  backend framework built with Node.js and Express.js. It is designed to facilitate the development of RESTful APIs and microservices by providing a structured architecture and reusable components.
 
-## TechStack:-
+🚀 ## TechStack:-
 
 1. **Node.js** — JavaScript runtime environment
 
@@ -20,7 +21,7 @@ This is simple User Profile Management System with  backend framework built with
 
 9. **bcrypt** — Library to hash passwords securely
 
-## SetUp:-
+🛠️ ## SetUp:-
 
 Follow these steps to set up the SuperGram-riya backend on your local machine:
 
@@ -71,7 +72,7 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
    http://localhost:3000/
    ```
 
-## File Structure
+📂 ## File Structure
 ```bash
   API/
 ├── controllers/            # Controller logic for handling requests
@@ -93,4 +94,56 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
 └── README.md               # Project documentation
 ```
 
+📬 ## API Endpoints (With Postman Screenshots)
+🔐 ###Auth Routes
+✅ ###POST /register
+User Registration:
+```bash
+![User Register](./screenshots/register/user_register.png)
+```
+Admin Registration:
+```bash
+![Admin Register](./screenshots/register/admin_register.png)
+```
 
+🔓 POST /login
+User Login:
+![User Login](./screenshots/login/user_login.png)
+
+Admin Login:
+![Admin Login](./screenshots/login/admin_login.png)
+
+🔒 POST /logout
+User Logout:
+![User Logout](./screenshots/logout/user_logout.png)
+
+Admin Logout:
+![Admin Logout](./screenshots/logout/admin_logout.png)
+
+👤 Profile Routes
+📄 GET /profile
+User Profile:
+![User Profile](./screenshots/profile/user_profile.png)
+
+Admin Profile:
+![Admin Profile](./screenshots/profile/admin_profile.png)
+
+📝 Profile Update
+✏️ PUT /update
+User Profile Update:
+![User Update](./screenshots/updateprofile/user_update.png)
+
+Admin Updating Own Profile:
+![Admin Update](./screenshots/updateprofile/admin_update.png)
+
+Admin Updating Another User:
+![Admin Update Another User](./screenshots/updateprofile/admin_update_user.png)
+
+📋 Admin: View All Users
+📑 GET /users
+Admin View All Users:
+![View Users - Admin](./screenshots/view_users-admin/users_admin.png)
+
+🍪 Cookies (Token / Session)
+Admin Auth Cookies:
+![Admin Cookies](./screenshots/cookies/user_admin_cookies.png)
