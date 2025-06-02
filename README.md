@@ -72,22 +72,25 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
    ```
 
 ## File Structure
-API/
-├── controllers/
-│   └── auth.controller.js
-├── lib/
-│   ├── db.js
-│   └── utils.js
-├── middlewares/
-│   └── protected.js
-├── models/
-│   └── user.schema.js
-├── routes/
-│   └── auth.route.js
-├── .env
-├── .gitignore
-├── index.js
-├── package-lock.json
-├── package.json
-└── README.md
+```bash
+  API/
+├── controllers/            # Controller logic for handling requests
+│   └── auth.controller.js  # Authentication controller
+├── lib/                    # Utility and DB connection files
+│   ├── db.js               # MongoDB connection setup
+│   └── utils.js            # generating jwt token
+├── middlewares/            # Middleware functions
+│   └── protected.js        # Middleware for route protection (for user and admin)
+├── models/                 # Mongoose schema definitions
+│   └── user.schema.js      # User schema (usr/admin)
+├── routes/                 # API routes
+│   └── auth.route.js       # Authentication routes
+├── .env                    # Environment variables 
+├── .gitignore              # Git ignore rules
+├── index.js                # Main server entry point
+├── package-lock.json       # NPM package lock file
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
+```
+
 
