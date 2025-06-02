@@ -71,3 +71,23 @@ Follow these steps to set up the SuperGram-riya backend on your local machine:
    http://localhost:3000/
    ```
 
+## File Structure
+API/
+├── controllers/
+│   └── auth.controller.js
+├── lib/
+│   ├── db.js
+│   └── utils.js
+├── middlewares/
+│   └── protected.js
+├── models/
+│   └── user.schema.js
+├── routes/
+│   └── auth.route.js
+├── .env
+├── .gitignore
+├── index.js
+├── package-lock.json
+├── package.json
+└── README.md
+
